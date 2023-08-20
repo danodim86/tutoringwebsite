@@ -1,0 +1,205 @@
+.experience-work-container {
+  height: 2800px;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.experience-title {
+  margin-top: 90px;
+  font-family: Raleway, Arial;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.explore-learning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.explore-learning-image {
+  width: 1200px;
+  height: 550px;
+  object-fit: cover;
+}
+
+.explore-learning-text-container {
+  position: absolute;
+}
+.explore-learning-text {
+  text-align: center;
+  height: 100%;
+  width: 1000px;
+  font-family: Raleway, Arial;
+  font-weight: 500;
+  font-size: 25px;
+  padding: 20px;
+  color: rgb(60, 59, 59);
+  background-color: rgba(240, 240, 240, 0.7);
+  
+}
+
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+} 
+
+.work-title {
+  margin-top: 70px;
+  font-family: Raleway, Arial;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+}
+
+.description-work-container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  
+}
+
+.description-work-text-container-1 {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+
+.description-work-text-1 {
+  margin-top: -45px;
+  margin-left: 50px;
+  flex: 2;
+  text-align: center;
+  height: 310px;
+  width: 1100px;
+  font-family: Raleway, Arial;
+  font-weight: 300;
+  font-size: 25px;
+  padding: 20px;
+  color: rgb(60, 59, 59);
+  background-color: rgba(202, 238, 254, 0.8);
+  border-radius: 20px;
+}
+
+.description-work-image-1 {
+  margin-top: 30px;
+  margin-left: 700px;
+  top: 0;
+  height: 70%;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(180, 180, 180, 0.7);
+}
+
+.description-work-container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.description-work-image-2 {
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 110%;
+  width: 110%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(180, 180, 180, 0.7);
+}
+
+
+
+.description-work-text-container-2 {
+  position: absolute;
+} 
+
+.description-work-text-2 {
+  margin-left: 500px;
+  margin-top: 50px;
+  text-align: center;
+  height: 300px;
+  width: 950px;
+  font-family: Raleway, Arial;
+  font-weight: 300;
+  font-size: 23px;
+  padding: 20px;
+  color: rgb(60, 59, 59);
+  background-color: rgba(218, 203, 254, 0.7);
+  border-radius: 20px;
+}
+
+
+
+.achievements-title {
+  margin-top: 70px;
+  font-family: Raleway, Arial;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+}
+
+.achievements-text {
+  font-family: Raleway, Arial;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.achievements-pics-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.senior-2021-image {
+  flex: 1;
+  object-fit: contain;
+  height: 340px;
+  padding-left: 10px;
+  padding-right: 10px
+
+}
+
+.BMO1-image {
+  flex: 1;
+  object-fit: contain;
+  height: 340px;
+
+}
+
+.senior-2022-image {
+  flex: 1;
+  object-fit: contain;
+  height: 340px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.achievement-text-1 {
+  font-family: Raleway, Arial;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+
+}
+
