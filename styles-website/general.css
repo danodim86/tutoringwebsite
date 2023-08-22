@@ -119,16 +119,16 @@ body{
   } 
 
   .starting-image-text-1 {
-    font-size: 40px;
+    font-size: 52px;
   }
   
   .starting-image-text-2 {
-    font-size: 20px;
+    font-size: 30px;
   } 
 
   .journey-button {
     padding: 10px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
 }  
@@ -151,11 +151,11 @@ body{
   } 
 
   .starting-image-text-1 {
-    font-size: 40px;
+    font-size: 48px;
   }
   
   .starting-image-text-2 {
-    font-size: 20px;
+    font-size: 26px;
   } 
 
   .journey-button {
@@ -170,7 +170,7 @@ body{
 
   .starting-image-text {
     position: absolute;
-    top: 30px;
+    top: 35px;
     left: 14px;
     width: 100%; 
   } 
@@ -201,7 +201,7 @@ body{
 
   .starting-image-text {
     position: absolute;
-    top: 30px;
+    top: 36px;
     left: 14px;
     width: 100%; 
   } 
