@@ -26,7 +26,7 @@ body{
   margin-left: 0;
   margin-right: 0;
   padding-top: 55px;
-}
+}   
 
 .starting-image-container {
   position: relative;
@@ -101,4 +101,128 @@ body{
 .journey-button:hover {
   color: rgb(23, 23, 23);
   background-color: rgb(157, 157, 157);
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .starting-image-text {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 100%; 
+  } 
+
+  .starting-image {
+    
+    max-width: 100%;
+    height: auto;
+  } 
+
+  .starting-image-text-1 {
+    font-size: 40px;
+  }
+  
+  .starting-image-text-2 {
+    font-size: 20px;
+  } 
+
+  .journey-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+}  
+
+
+@media only screen and (max-width: 992px) {
+
+  .starting-image-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100%; 
+  
+  } 
+
+  .starting-image {
+    
+    max-width: 100%;
+    height: auto;
+  } 
+
+  .starting-image-text-1 {
+    font-size: 40px;
+  }
+  
+  .starting-image-text-2 {
+    font-size: 20px;
+  } 
+
+  .journey-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+} 
+
+
+@media only screen and (max-width: 768px) {
+
+  .starting-image-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%; 
+  } 
+
+  .starting-image {
+    
+    max-width: 100%;
+    height: auto;
+  } 
+
+  .starting-image-text-1 {
+    font-size: 40px;
+  }
+  
+  .starting-image-text-2 {
+    font-size: 20px;
+  } 
+
+  .journey-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+} 
+
+
+@media only screen and (max-width: 600px) {
+
+  .starting-image-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%; 
+  } 
+
+  .starting-image {
+    
+    max-width: 100%;
+    height: auto;
+  } 
+
+  .starting-image-text-1 {
+    font-size: 40px;
+  }
+  
+  .starting-image-text-2 {
+    font-size: 20px;
+  } 
+
+  .journey-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
 }
