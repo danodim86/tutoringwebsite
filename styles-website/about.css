@@ -204,11 +204,11 @@
 
 /* Additional responsive styles for screens below 600px */
 @media only screen and (max-width: 600px) {
- 
+ /*
   .about-container {
-    height: 2000px;
+    height: 2800px;
     
-  }
+  } 
 
   .about-start-text {
     font-size: 30px;
@@ -233,7 +233,7 @@
 
   .about-image-container {
     padding-left: 10px;
-    padding-bottom: -50px;
+    padding-bottom: -50px; 
   }
 
   .about-text {
@@ -262,7 +262,7 @@
   .analytical-thinking-text,
   .passion-text,
   .effective-communication-text {
-    background-color: red;
+    
     font-size: 20px;
   }
 
@@ -275,13 +275,13 @@
   }
 }
 
-/* for screens under 550px */
+ for screens under 550px 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) { */
 
   
   .about-container {
-    height: 2800px;
+    height: 2950px;
     
   }
 
@@ -315,7 +315,7 @@
     font-size: 16px;
     
     padding-left: -10px;
-    background-color: green;
+    
   }
 
   .flex-2 {
@@ -337,7 +337,7 @@
   .analytical-thinking-text,
   .passion-text,
   .effective-communication-text {
-    background-color: green;
+    
     font-size: 20px;
   }
 
