@@ -155,7 +155,7 @@ body{
   }
   
   .starting-image-text-2 {
-    font-size: 20px;
+    font-size: 16px;
   } 
 
   .journey-button {
@@ -170,8 +170,8 @@ body{
 
   .starting-image-text {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 8px;
     width: 100%; 
   } 
 
@@ -182,11 +182,11 @@ body{
   } 
 
   .starting-image-text-1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   
   .starting-image-text-2 {
-    font-size: 20px;
+    font-size: 15px;
   } 
 
   .journey-button {
@@ -201,8 +201,8 @@ body{
 
   .starting-image-text {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 7px;
+    left: 7px;
     width: 100%; 
   } 
 
@@ -213,11 +213,11 @@ body{
   } 
 
   .starting-image-text-1 {
-    font-size: 40px;
+    font-size: 28px;
   }
   
   .starting-image-text-2 {
-    font-size: 20px;
+    font-size: 14px;
   } 
 
   .journey-button {
