@@ -308,7 +308,7 @@
 
   .about-image-container {
     padding-left: 10px;
-    padding-bottom: -50px;
+   /* padding-bottom: -50px; */
   }
 
   .about-text {
@@ -326,11 +326,11 @@
 
   .qualities {
     font-size: 20px;
-    margin-top: 450px;
+    margin-top: 200px;
   }
 
   .problem-solving-container {
-    margin-top: -50px;
+   /* margin-top: -50px; */
   }
 
   .problem-solving-text,
