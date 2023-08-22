@@ -170,7 +170,7 @@ body{
 
   .starting-image-text {
     position: absolute;
-    top: 22px;
+    top: 30px;
     left: 14px;
     width: 100%; 
   } 
@@ -201,7 +201,7 @@ body{
 
   .starting-image-text {
     position: absolute;
-    top: 22px;
+    top: 30px;
     left: 14px;
     width: 100%; 
   } 
@@ -213,11 +213,11 @@ body{
   } 
 
   .starting-image-text-1 {
-    font-size: 5px;
+    font-size: 22px;
   }
   
   .starting-image-text-2 {
-    font-size: 5px;
+    font-size: 14px;
   } 
 
   .journey-button {
