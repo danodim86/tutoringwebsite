@@ -327,6 +327,7 @@
   .qualities {
     font-size: 25px;
     margin-top: 650px;
+    margin-bottom: -200px;
   }
 
   .problem-solving-container, .analytical-thinking-container, .passion-container, .communication-explanation {
