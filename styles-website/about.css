@@ -207,7 +207,7 @@
  
   .about-container {
     height: 2000px;
-    justify-content: space-between;
+    
   }
 
   .about-start-text {
@@ -282,7 +282,7 @@
   
   .about-container {
     height: 2000px;
-    justify-content: space-between;
+    
   }
 
   .about-start-text {
@@ -326,7 +326,7 @@
 
   .qualities {
     font-size: 20px;
-    margin-top: 700px;
+    margin-top: 450px;
   }
 
   .problem-solving-container {
