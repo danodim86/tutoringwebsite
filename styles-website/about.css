@@ -1,7 +1,7 @@
 .about-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   height: 1300px;
 
 }
@@ -207,6 +207,7 @@
  
   .about-container {
     height: 2000px;
+    justify-content: space-between;
   }
 
   .about-start-text {
@@ -254,7 +255,7 @@
 
   .qualities {
     font-size: 20px;
-    margin-top: 350px;
+    margin-top: 400px;
   }
 
   .problem-solving-container {
@@ -276,6 +277,86 @@
     font-size: 17px;
     margin-bottom: 20px;
   }
+}
+
+/* for screens under 400px */
+
+@media only screen and (max-width: 400px) {
+
+  
+  .about-container {
+    height: 2000px;
+    justify-content: space-between;
+  }
+
+  .about-start-text {
+    font-size: 30px;
+  }
+
+  .about-container {
+    height: auto;
+  }
+
+  .flex-1 {
+    flex-direction: column;
+    margin-bottom: 20px;
+  } 
+
+  .about-image {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 30px;
+  }
+
+  .about-text-container {
+    padding-left: 50px;
+    
+  }
+
+  .about-image-container {
+    padding-left: 10px;
+    padding-bottom: -50px;
+  }
+
+  .about-text {
+    font-size: 15px;
+    
+    padding-left: -10px;
+    background-color: green;
+  }
+
+  .flex-2 {
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .qualities {
+    font-size: 20px;
+    margin-top: 500px;
+  }
+
+  .problem-solving-container {
+    margin-top: -50px;
+  }
+
+  .problem-solving-text,
+  .analytical-thinking-text,
+  .passion-text,
+  .effective-communication-text {
+    background-color: green;
+    font-size: 20px;
+  }
+
+  .problem-solving-explanation,
+  .analytical-thinking-explanation,
+  .passion-explanation,
+  .communication-explanation {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
 }
 
 
