@@ -281,7 +281,7 @@
 
   
   .about-container {
-    height: 2500px;
+    height: 3000px;
     
   }
 
@@ -326,7 +326,7 @@
 
   .qualities {
     font-size: 20px;
-    margin-top: 450px;
+    margin-top: 550px;
   }
 
   .problem-solving-container {
@@ -346,7 +346,7 @@
   .passion-explanation,
   .communication-explanation {
     font-size: 17px;
-    margin-bottom: 100px;
+    margin-bottom: 160px;
   }
 
 }
