@@ -1,5 +1,5 @@
 .experience-work-container {
-  height: 2800px;
+  height: 3000px;
   background-color: rgb(235, 235, 235);
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding: 20px;
 }
 
 .experience-title {
@@ -17,6 +18,7 @@
   font-family: Raleway, Arial;
   font-weight: 400;
   font-size: 50px;
+  text-align: center;
 }
 
 .explore-learning {
@@ -25,21 +27,33 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
 .explore-learning-image {
-  width: 1200px;
-  height: 550px;
+  max-width: 100%; /* width 1200 and height 550 */
+  height: 700px;
+  /* height: calc(-100px - 100px); */
+  /*object-position: center top;*/
   object-fit: cover;
 }
 
 .explore-learning-text-container {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background-color: rgba (240, 240, 240, 0.7);
+  padding: 20px;
+  text-align: center;
+  box-sizing:  border-box;
 }
 .explore-learning-text {
   text-align: center;
-  height: 100%;
-  width: 1000px;
+   
+  width: 100%;
   font-family: Raleway, Arial;
   font-weight: 500;
   font-size: 25px;
@@ -201,5 +215,61 @@
   font-size: 25px;
   text-align: center;
 
+} 
+
+
+
+/* Responsive styles for screens between 992px and 1200px */
+@media only screen and (max-width: 1200px) {
+
+  .explore-learning-image {
+    width: 100%;
+    height: 500px;
+  }
+
+  .experience-title {
+    font-size: 40px;
+  }
+  
+  .explore-learning-text {
+    font-size: 20px;
+  }
+} 
+
+
+/* Responsive styles for screens between 768px and 991px */
+@media only screen and (max-width: 991px) {
+  .experience-title {
+    font-size: 30px;
+  }
+  
+  .explore-learning-text {
+    font-size: 18px;
+  }
+}
+
+/* Responsive styles for screens below 768px (small screens) */
+@media only screen and (max-width: 768px) {
+  .experience-title {
+    font-size: 25px;
+  }
+  
+  .explore-learning-text {
+    font-size: 16px;
+  }
+} 
+
+
+/* responsive styles for screens below 600px */
+@media only screen and (max-width: 600px) {
+  .experience-title {
+    font-size: 20px;
+    margin-top: 60px;
+  }
+  
+  .explore-learning-text {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
 
