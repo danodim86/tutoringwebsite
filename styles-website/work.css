@@ -1,5 +1,5 @@
 .experience-work-container {
-  height: 2800px;
+  height: 3100px;
   background-color: rgb(235, 235, 235);
   display: flex;
   flex-direction: column;
@@ -74,6 +74,7 @@
 
 .work-title {
   margin-top: 70px;
+  margin-bottom: 120px;
   font-family: Raleway, Arial;
   font-weight: 400;
   font-size: 50px;
@@ -88,10 +89,21 @@
   position: relative;
 }
 
+.description-work-container-1 {
+  margin-bottom: 140px;
+}
+
 .description-work-text-container-1, .description-work-text-container-2 {
   position: absolute;
   width: 50%;
   /*max-width: 100%; */
+}
+
+.description-work-text-container-1{
+  margin-top: 20px;
+}
+.description-work-text-container-2 {
+  margin-left: 60px;
 }
 
 .description-work-text-1 {
@@ -114,7 +126,7 @@
 
 .description-work-image-1 {
   margin-top: 30px;
-  margin-left: 700px;
+  margin-left: 650px;
   top: 0;
   height: 70%; 
   max-width: 50%;
@@ -226,23 +238,36 @@
 
   .work-title {
     font-size: 40px;
+    margin-bottom: 0px;
   } 
+
+  .description-work-container-1 {
+   margin: 40px;
+  }
+
+  .description-work-container-2 {
+   margin: 40px;
+  }
 
   .description-work-text-1, .description-work-text-2 {
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    
   }
-
-  .description-work-image-1 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
+  
+  .description-work-text-container-1, .description-work-text-container-2 {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
   } 
 
-  .description-work-image-2 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
-  }
+  .description-work-image-1, .description-work-image-2 {
+    display: none;
+  } 
+
+   
 } 
 
 
@@ -261,19 +286,7 @@
   } 
 
   .description-work-text-1, .description-work-text-2 {
-    font-size: 18px;
-  } 
-
-  .description-work-image-1 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
-  } 
-
-  .description-work-image-2 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
+    font-size: 22px;
   }
 }
 
@@ -292,19 +305,7 @@
   } 
 
   .description-work-text-1, .description-work-text-2 {
-    font-size: 16px;
-  } 
-
-  .description-work-image-1 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
-  } 
-
-  .description-work-image-2 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
+    font-size: 20px;
   }
 } 
 
@@ -327,19 +328,7 @@
   } 
 
   .description-work-text-1, .description-work-text-2 {
-    font-size: 14px;
-  } 
-
-  .description-work-image-1 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
-  } 
-
-  .description-work-image-2 {
-    max-width: 40%;
-    left: 0;
-    top: 0;
+    font-size: 17px;
   }
 }
 
