@@ -263,6 +263,7 @@
     position: relative;
     margin: 0 auto;
     width: 85%;
+    justify-content: center;
   } 
 
   .description-work-image-1, .description-work-image-2 {
@@ -322,6 +323,10 @@
     justify-content: center;
   }
 
+  .image-1-container, .image-2-container, .image-3-container {
+   transform: translateX(10%);
+  }
+
   .senior-2021-image,
   .BMO1-image,
   .senior-2022-image {
@@ -349,6 +354,14 @@
 
   .description-work-text-1, .description-work-text-2 {
     font-size: 20px;
+  } 
+
+  .description-work-text-container-1,
+  .description-work-text-container-2 {
+    left: 40%;
+    transform: translateX(-50%);
+    width: 85%; /* Adjust as needed */
+    max-width: 100%;
   }
 } 
 
