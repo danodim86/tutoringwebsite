@@ -1,5 +1,5 @@
 .experience-work-container {
-  height: 3100px;
+  height: auto;
   background-color: rgb(235, 235, 235);
   display: flex;
   flex-direction: column;
@@ -183,30 +183,32 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
+  max-width: 100%;
 }
 
 .senior-2021-image {
   flex: 1;
   object-fit: contain;
-  height: 340px;
-  padding-left: 10px;
-  padding-right: 10px
+  height: auto;
+  max-width: 100%;
+  padding: 0;
 
 }
 
 .BMO1-image {
   flex: 1;
   object-fit: contain;
-  height: 340px;
-
+  height: auto;
+  max-width: 100%;
+  padding: 0;
 }
 
 .senior-2022-image {
   flex: 1;
   object-fit: contain;
-  height: 340px;
-  padding-left: 10px;
-  padding-right: 10px;
+  height: auto;
+  max-width: 100%;
+  padding: 0;
 
 }
 
@@ -215,7 +217,7 @@
   font-weight: 300;
   font-size: 25px;
   text-align: center;
-
+  margin-bottom: 50px;
 } 
 
 
@@ -253,19 +255,29 @@
     font-size: 25px;
     text-align: center;
     margin: 0 auto;
-    margin-right: 10px;
+    padding-top: 40px;
     
   }
   
   .description-work-text-container-1, .description-work-text-container-2 {
     position: relative;
     margin: 0 auto;
-    width: 85%;
+    width: 70%;
   } 
 
   .description-work-image-1, .description-work-image-2 {
     display: none;
-  } 
+  }  
+
+  .senior-2021-image,
+  .BMO1-image,
+  .senior-2022-image {
+    object-fit: contain;
+    height: auto; /* Let the images resize proportionally */
+    max-width: 100%; /* Ensure images don't overflow their containers */
+    
+    /*margin-bottom: 20px; /* Add space between images */
+  }
 
    
 } 
@@ -273,6 +285,11 @@
 
 /* Responsive styles for screens between 768px and 991px */
 @media only screen and (max-width: 991px) {
+
+  /*.experience-work-container{
+    height: 4000px;
+  }*/
+
   .experience-title {
     font-size: 30px;
   }
@@ -287,6 +304,32 @@
 
   .description-work-text-1, .description-work-text-2 {
     font-size: 22px;
+  } 
+
+  .achievements-title {
+    font-size: 40px;
+  }
+
+  .achievements-text,
+  .achievement-text-1 {
+    font-size: 20px;
+  }
+
+  .achievements-pics-container {
+    flex-direction: column; /* Stack images vertically */
+    
+    align-items: center; /* Center images horizontally */
+    justify-content: center;
+  }
+
+  .senior-2021-image,
+  .BMO1-image,
+  .senior-2022-image {
+    object-fit: contain;
+    height: auto; /* Let the images resize proportionally */
+    max-width: 80%; /* Ensure images don't overflow their containers */
+    
+    margin-bottom: 20px; /* Add space between images */
   }
 }
 
@@ -330,5 +373,15 @@
   .description-work-text-1, .description-work-text-2 {
     font-size: 17px;
   }
+
+  /*.experience-work-container {
+    height: 3500px;
+  }*/
+}
+
+@media only screen and (max-width: 500px) {
+  /*.experience-work-container {
+    height: 3800px;
+  }*/
 }
 
