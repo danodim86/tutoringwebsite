@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   
-  height: 1300px;
+  /*height: 1300px;*/
+  height: auto;
 
 }
 
@@ -20,6 +21,7 @@
   display: flex;
   flex-direction: row;
   height: 300px;
+ 
 }
 
 .about-image-container { 
@@ -65,7 +67,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 400px;
+  /*height: 400px;*/
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .problem-solving-container, .analytical-thinking-container, .passion-container, .effective-communication-container {
@@ -279,11 +283,11 @@
 
 @media only screen and (max-width: 550px) { */
 
-  
+  /*
   .about-container {
     height: 3100px;
     
-  }
+  }*/
 
   .about-start-text {
     font-size: 30px;
@@ -351,6 +355,5 @@
   }
 
 }
-
 
 
