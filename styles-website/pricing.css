@@ -46,6 +46,7 @@
   margin-left: 20px;
   margin-right: 20px;
   height: 100%;
+  max-width: 100%;
 }
 
 .gcse-title, .alevel-title, .competition-title {
@@ -90,6 +91,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 
@@ -115,7 +117,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 } 
 
 
@@ -166,11 +168,13 @@
   }
 
   .gcse-pure-maths-text, .alevel-pure-maths-text, .alevel-mechanics-text, .competition-maths-text, .competition-types {
-    font-size: 16px;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .gcse-pricing, .alevel-pricing, .competition-pricing {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .teaching-way-title {
@@ -179,13 +183,29 @@
 
   .teaching-way-text {
     font-size: 18px;
-    max-width: 100%;
-  } 
+    max-width: 70%;
+    
+  }  
+
+  .teaching-way-text-container {
+    transform: translateX(5%);
+  }
 
   .gcse-container, .alevel-container, .competition-container{
     margin-left: 0px;
     margin-right: 0px;
-  }
+  } 
+
+  .gcse-title, .alevel-title, .competition-title {
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+ /*
+  ul.teaching-way-text {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Removes list bullets or markers 
+  }*/
 }
 
 /* Responsive styles for screens below 600px */
@@ -205,5 +225,44 @@
   .teaching-way-text {
     font-size: 16px;
     line-height: 32px;
+    
+  } 
+
+  .gcse-title, .alevel-title, .competition-title {
+    font-size: 19px;
   }
-}
+} 
+
+@media only screen and (max-width: 300px) {
+  .pricing-title {
+    font-size: 24px;
+  }
+
+  .pricing-text {
+    font-size: 18px;
+  }
+
+  .teaching-way-title {
+    font-size: 22px;
+  }
+
+  .teaching-way-text {
+    font-size: 16px;
+    line-height: 32px;
+  } 
+
+  .gcse-title, .alevel-title, .competition-title {
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .gcse-pure-maths-text, .alevel-pure-maths-text, .alevel-mechanics-text, .competition-maths-text, .competition-types {
+    font-size: 11px;
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+
+  .pricing-plans-container{
+    margin-top: -40px;
+  }
+} 
