@@ -130,7 +130,7 @@ body{
 
   .journey-button {
     padding: 10px;
-    font-size: 15px;
+    font-size: 18px;
   }
 
 }  
@@ -163,7 +163,7 @@ body{
 
   .journey-button {
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
 } 
@@ -195,7 +195,7 @@ body{
 
   .journey-button {
     padding: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
 } 
@@ -228,6 +228,68 @@ body{
   .journey-button {
     padding: 10px;
     font-size: 12px;
+  }
+
+} 
+
+@media only screen and (max-width: 600px) {
+
+  .starting-image-text {
+    position: absolute;
+    top: 35px;
+    left: 14px;
+    width: 100%; 
+  } 
+
+  .starting-image {
+    
+    max-width: 100%;
+    height: auto;
+  } 
+
+  .starting-image-text-1 {
+    font-size: 22px;
+  }
+  
+  .starting-image-text-2 {
+    font-size: 14px;
+    padding-right: 12px;
+  } 
+
+  .journey-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+} 
+
+@media only screen and (max-width: 300px) {
+
+  .starting-image-text {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 100%; 
+  } 
+
+  .starting-image {
+    
+    max-width: 100%;
+    height: auto;
+  } 
+
+  .starting-image-text-1 {
+    font-size: 16px;
+  }
+  
+  .starting-image-text-2 {
+    font-size: 12px;
+    padding-right: 12px;
+  } 
+
+  .journey-button {
+    padding: 10px;
+    font-size: 8px;
   }
 
 }
