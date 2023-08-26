@@ -117,7 +117,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  /*margin-bottom: 100px;*/
+  margin-bottom: 50px;
 } 
 
 
@@ -188,7 +188,7 @@
   }  
 
   .teaching-way-text-container {
-    transform: translateX(5%);
+    transform: translateX(6%);
   }
 
   .gcse-container, .alevel-container, .competition-container{
@@ -250,6 +250,10 @@
     font-size: 16px;
     line-height: 32px;
   } 
+
+  .teaching-way-text-container {
+    transform: translateX(4%);
+  }
 
   .gcse-title, .alevel-title, .competition-title {
     font-size: 13px;
