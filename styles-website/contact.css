@@ -34,7 +34,7 @@
   flex-direction: column;
   align-items: center;
   height: auto;
-  width: 100%; /*height 300px and width 300px*/
+  max-width: 100%; /*height 300px and width 300px*/
 
 }
 
@@ -153,13 +153,18 @@
   .contact-ways-container {
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
   }
 
   .location-container, .phone-container, .email-container {
-    flex-basis: 50%;
-    max-width: none;
+   /* flex-basis: 50%; */
+   /* max-width: none; */
+   max-width: 100%;
     margin-top: 30px;
+    
   }
+
+  
 
   .location-icon, .phone-icon, .email-icon {
     width: 65px;
