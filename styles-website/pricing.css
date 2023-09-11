@@ -10,7 +10,7 @@
 }
 
 .pricing-title {
-  margin-top: 90px;
+  margin-top: 110px;
   font-family: Raleway, Arial;
   font-weight: 400;
   font-size: 50px;
@@ -57,7 +57,7 @@
   font-size: 30px;
   text-align: center;
   margin: 0;
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px 60px 20px;
   height: 40px;
 } 
 
@@ -127,12 +127,20 @@
 }
 
 
-
+@media only screen and (max-width: 1200px) {
+  .pricing-title {
+    margin-top: 110px;
+  }
+}
 
 
 
 /* Responsive styles for screens below 991px */
 @media only screen and (max-width: 991px) {
+
+  .pricing-title {
+    margin-top: 110px;
+  }
   .gcse-container, .alevel-container, .competition-container {
     max-width: 100%;
   }
@@ -162,8 +170,8 @@
 /* Responsive styles for screens below 768px */
 @media only screen and (max-width: 768px) {
   .pricing-title {
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 35px;
+    margin-top: 100px;
   }
 
   .pricing-text {
@@ -221,7 +229,7 @@
 /* Responsive styles for screens below 600px */
 @media only screen and (max-width: 600px) {
   .pricing-title {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .pricing-text {
