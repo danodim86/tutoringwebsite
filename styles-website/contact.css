@@ -110,7 +110,8 @@
 
   .back-to-top-text {
     font-size: 28px;
-  }
+  } 
+
 }
 
 
@@ -136,6 +137,10 @@
 
   .back-to-top-text {
     font-size: 26px;
+  } 
+
+  .last-container {
+    margin-bottom: 500px;
   }
 }
 
@@ -178,11 +183,22 @@
 
   .back-to-top-text {
     font-size: 24px;
+  } 
+
+  .last-container {
+    margin-bottom: 300px;
   }
+    
 }
 
 /* Responsive styles for screens below 600px */
 @media only screen and (max-width: 600px) {
+
+ 
+  .last-container {
+    margin-bottom: 50px;
+  }
+
   .contact-title {
     font-size: 40px;
   }
