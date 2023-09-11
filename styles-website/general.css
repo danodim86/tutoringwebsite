@@ -256,7 +256,15 @@ body{
     padding-bottom: 10px;
   }
 
+   .nav-link:link {
+    color: white;
+  }
+
   .nav-link:visited {
+    color: white;
+  }
+
+  .nav-link:active {
     color: white;
   }
 
