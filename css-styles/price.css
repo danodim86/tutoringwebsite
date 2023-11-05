@@ -1,0 +1,281 @@
+.pricing{
+  background-color: lightgray;
+  padding: 100px 0;
+  gap: 50px;
+} 
+
+.pricing > h2{
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.pricing-container{
+  gap: 60px;
+  width: 80%;
+}
+
+.pricing > p{
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.gcse, .alevel, .competition{
+  flex-basis: 33.333%;
+}
+
+.gcse-heading, .alevel-heading, .competition-heading{
+  width: 100%;
+  background-color: tomato;
+  color: white;
+  padding: 30px 15px;
+}
+
+.gcse-heading h3, .alevel-heading h3, .competition-heading h3{
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+.gcse-text, .gcse-price, .alevel-text, .alevel-price, .competition-text, .competition-price{
+  width: 100%;
+  background-color: #8C8C8C;
+  padding: 30px 10px;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.alevel > *:nth-child(2), .competition > *:nth-child(2){
+  border-bottom: 1px solid black;
+}
+
+.gcse-text ul, .alevel-text ul, .competition-text ul{
+  margin-top: 40px;
+  list-style: none;
+}
+
+.gcse-text ul li:not(:last-child), 
+.alevel-text ul li:not(:last-child), 
+.competition-text ul li:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.gcse-price, .alevel-price, .competition-price{
+  background-color: #AAAAAA;
+}
+
+.gcse-price > *:first-child, .alevel-price > *:first-child, .competition-price > *:first-child{
+  margin-bottom: 30px;
+}
+
+
+/* ways of teaching css */
+
+.way-of-teaching-heading{
+  margin-top: 70px;
+}
+
+.pricing > ul{
+  background-color: #C4C2C2;
+  list-style-image: url(../images/arrow.png);
+  padding: 40px;
+}
+
+.pricing > ul li{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+.pricing > ul li:not(:last-child){
+  margin-bottom: 20px;
+}
+
+
+/* responsive css */
+
+@media only screen and (max-width: 1100px){
+  .pricing-container{
+    gap: 40px;
+    width: 90%;
+  }
+
+  .pricing > ul li{
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .pricing > ul li{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .pricing-container{
+    gap: 0.5px;
+    width: 100%;
+  }
+
+  .way-of-teaching-heading{
+    font-size: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .pricing > h2{
+    font-size: 3rem;
+  }
+  .pricing > p{
+    font-size: 1.4rem;
+  }
+
+  .gcse-heading h3, .alevel-heading h3, .competition-heading h3{
+    font-size: 1.3rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 25px;
+  }
+  .gcse-text, .gcse-price, .alevel-text, .alevel-price, .competition-text, .competition-price{
+    font-size: 1rem;
+  }
+
+  .pricing > ul li{
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  .pricing > p{
+    font-size: 1.2rem;
+  }
+
+  .gcse-heading h3, .alevel-heading h3, .competition-heading h3{
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .gcse-heading h3, .alevel-heading h3, .competition-heading h3{
+    font-size: 1.1rem;
+  }
+  .gcse-text, .gcse-price, .alevel-text, .alevel-price, .competition-text, .competition-price{
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .teaching-way-container{
+    width: 80%; 
+    margin: 0 auto;
+  }
+
+  .way-of-teaching-heading{
+    font-size: 2.3rem !important;
+  }
+
+}
+
+@media only screen and (max-width: 450px){
+  .pricing-container{
+    gap: 0px;
+  }
+  .pricing-container > *:first-child{
+    border-right: 0.5px solid lightgray;
+  }
+  .pricing-container > *:last-child{
+    border-left: 0.5px solid lightgray;
+  }
+
+  .pricing > p{
+    font-size: 1.1rem !important;
+  }
+  .gcse-heading, .alevel-heading, .competition-heading{
+    padding: 30px 5px;
+  }
+  .gcse-text, .gcse-price, .alevel-text, .alevel-price, .competition-text, .competition-price{
+    font-size: 0.9rem;
+    gap: 20px;
+  }
+  
+  .gcse-text ul, .alevel-text ul, .competition-text ul{
+    margin-top: 20px;
+  }
+
+  .gcse-text ul li:not(:last-child), 
+  .alevel-text ul li:not(:last-child), 
+  .competition-text ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+
+  .gcse-price > *:first-child, .alevel-price > *:first-child, .competition-price > *:first-child{
+    margin-bottom: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 400px){
+  .pricing > p{
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 360px){
+
+  .pricing > p{
+    font-size: 0.9rem !important;
+  }
+  
+  .gcse-heading h3, .alevel-heading h3, .competition-heading h3{
+    font-size: 1rem;
+  }
+}
+
+
+
+/* for bigger screens */
+
+@media only screen and (min-width: 1800px){
+  .pricing > ul li{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 2000px){
+  .pricing{
+    gap: 70px;
+  }
+  .pricing > h2{
+    font-size: 5rem;
+  }
+  .pricing > p{
+    font-size: 2.2rem;
+  }
+
+  .gcse-heading h3, .alevel-heading h3, .competition-heading h3{
+    font-size: 2.5rem;
+  }
+  .gcse-text, .gcse-price, .alevel-text, .alevel-price, .competition-text, .competition-price{
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 2200px){
+  .pricing > ul li{
+    font-size: 2.7rem;
+  }
+}
+
+@media only screen and (min-width: 2400px){
+  .pricing > h2{
+    font-size: 6rem;
+  }
+  .pricing > p{
+    font-size: 2.7rem;
+  }
+
+  .gcse-heading h3, .alevel-heading h3, .competition-heading h3{
+    font-size: 3.3rem;
+  }
+  .gcse-text, .gcse-price, .alevel-text, .alevel-price, .competition-text, .competition-price{
+    font-size: 2rem;
+  }
+}

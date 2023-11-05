@@ -1,0 +1,377 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, Arial;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* reusable css properties */
+
+/* flex */
+
+.flex{
+  display: flex;
+}
+
+.direction-column{
+  flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.justify-content-space-between{
+  justify-content: space-between;
+}
+.justify-content-space-evenly{
+  justify-content: space-evenly;
+}
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+/* colors */
+
+.color-white{
+  color: white;
+}
+
+
+/* text */
+
+.text-center{
+  text-align: center;
+}
+
+/* margin */
+
+.margin-right-30{
+  margin-right: 30px;
+}
+.margin-right-minus30{
+  margin-right: -30px;
+}
+
+.margin-right-100{
+  margin-right: 100px;
+}
+.margin-right-minus100{
+  margin-right: -100px;
+}
+
+
+/*===================== nav bar css =====================*/
+nav{
+  padding: 25px 50px;
+  background-color: #ecebeb;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+body{
+  padding-top: 77.2px;
+}
+
+nav > a{
+  font-size: 23px;
+}
+
+nav ul{
+  list-style: none;
+  gap: 40px;
+}
+
+nav ul li a{
+  gap: 5px;
+  font-size: 18px;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+/* ===================== banner css ================ */
+
+.banner{
+  background-image: url(../images/starting-image.png);
+  height: calc(100vh - 77.2px);
+  background-position: 80% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 50px;
+}
+
+.banner h1{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.banner p{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.banner a{
+  width: 30%;
+  font-size: 1.2rem;
+  border: none;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+.banner a:hover{
+  background-color: rgba(245, 245, 245, 0.9);
+}
+
+
+
+/*======================== responsive css =================== */
+
+
+
+@media only screen and (min-width: 2000px){
+  nav > a{
+    font-size: 30px;
+  }
+  
+  nav ul li a{
+    font-size: 23px;
+  }
+
+  .banner{
+    height: calc(100vh - 85.2px);
+  }
+
+  body{
+    padding-top: 85.2px;
+  }
+}
+
+@media only screen and (min-width: 2300px){
+  nav > a{
+    font-size: 40px;
+  }
+  
+  nav ul li a{
+    font-size: 30px;
+  }
+
+  .banner{
+    height: calc(100vh - 97.2px);
+  }
+
+  body{
+    padding-top: 97.2px;
+  }
+
+  .banner h1{
+    font-size: 100px;
+  }
+  .banner p{
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .banner a{
+    width: 25%;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1001px){
+  nav{
+    padding: 25px;
+  }
+  
+  nav > a{
+    font-size: 19px;
+  }
+  
+  nav ul li a{
+    font-size: 15px;
+  }
+
+  .banner{
+    height: calc(100vh - 72.4px);
+  }
+
+  body{
+    padding-top: 72.4px;
+  }
+
+  .banner h1{
+    font-size: 60px;
+  }
+  .banner p{
+    font-size: 25px;
+  }
+  .banner a{
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 851px){
+  nav > a{
+    font-size: 18px;
+  }
+
+  nav ul{
+    gap: 20px;
+  }
+  
+  nav ul li a{
+    font-size: 14px;
+  }
+
+  .banner{
+    height: calc(100vh - 70.8px);
+  } 
+
+  body{
+    padding-top: 70.8px;
+  }
+
+  .banner h1{
+    font-size: 60px;
+  }
+  .banner p{
+    font-size: 20px;
+  }
+  .banner a{
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 769px){
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  } 
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  } 
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    z-index: 100000;
+    position: fixed;
+    left: -100%;
+    top: 79px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: rgba(38, 38, 38, 0.8);
+    width: 100%;
+    transition: 0.3s;
+    padding: 20px;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  } 
+
+  .banner{
+    height: calc(100vh - 79px);
+  }
+
+  body{
+    padding-top: 79px;
+  }
+}
+
+@media only screen and (max-width: 671px){
+  .banner h1{
+    font-size: 45px;
+  }
+  .banner p{
+    font-size: 17px;
+  }
+  .banner a{
+    font-size: 14px;
+    width: 40%;
+    padding: 15px 20px;
+  }
+  .banner a span{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 505px){
+  .banner h1{
+    font-size: 35px;
+  }
+  .banner p{
+    font-size: 15px;
+  }
+  .banner a{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 381px){
+  nav{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  nav > a{
+    font-size: 16px;
+  }
+
+  .banner{
+    height: calc(100vh - 79px);
+  }
+  body{
+    padding-top: 79px;
+  }
+
+  .banner h1{
+    font-size: 30px;
+  }
+  .banner p{
+    font-size: 15px;
+  }
+  .banner a{
+    font-size: 13px;
+    padding: 10px;
+  }
+}

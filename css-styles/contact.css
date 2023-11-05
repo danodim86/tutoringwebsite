@@ -1,0 +1,145 @@
+.contact{
+  padding: 100px 0;
+  background-color: #E8E8E8;
+  gap: 100px;
+}
+
+.contact h2{
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.contact > p{
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.contact .contact-container{
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+.contact .contact-container i{
+  font-size: 3rem;
+}
+
+.place, .email, .telephone{
+  gap: 30px;
+  flex-basis: 33.333%;
+}
+
+.contact a{
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+}
+
+.contact a:hover{
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 1300px){
+  .contact > p{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .contact .contact-container{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .contact .contact-container{
+    font-size: 1.2rem;
+  }
+  .contact > p{
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 800px){
+  .contact h2{
+    font-size: 3rem;
+  }
+  .contact > p{
+    font-size: 1.2rem;
+  }
+  .contact .contact-container{
+    font-size: 1rem;
+  }
+  .contact > a{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  .contact .contact-container{
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .contact{
+    gap: 70px;
+    padding: 70px 0;
+  }
+  .contact > p{
+    font-size: 1.1rem;
+  }
+}
+
+
+/* bigger screens */
+@media only screen and (min-width: 1800px) {
+  .contact{
+    gap: 100px;
+  }
+  .contact h2{
+    font-size: 5rem;
+  }
+  .contact > p{
+    font-size: 2.5rem; 
+  }
+  .contact .contact-container{
+    font-size: 2rem;
+  }
+
+  .contact .contact-container i{
+    font-size: 4rem;
+  }
+
+  .contact a{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 2300px) {
+  .contact{
+    gap: 150px;
+  }
+  .contact h2{
+    font-size: 6rem;
+  }
+  .contact > p{
+    font-size: 3rem; 
+  }
+  .contact .contact-container{
+    font-size: 2.5rem;
+  }
+
+  .contact .contact-container i{
+    font-size: 5rem;
+  }
+
+  .contact a{
+    font-size: 2.5rem;
+    padding: 20px 30px;
+  }
+}
+
