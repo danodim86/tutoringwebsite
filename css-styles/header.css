@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Raleway, Arial;
-  
+  scroll-behaviour: smooth;
 }
 
 img{
@@ -14,7 +14,6 @@ img{
 a{
   text-decoration: none;
   color: black;
-  scroll-behaviour: smooth;
 }
 
 /* reusable css properties */
@@ -90,7 +89,6 @@ nav{
 
 body{
   padding-top: 77.2px;
-  scroll-behaviour: smooth;
 }
 
 nav > a{
