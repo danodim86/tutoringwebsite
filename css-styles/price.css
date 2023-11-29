@@ -17,6 +17,7 @@
 .pricing > p{
   font-size: 1.8rem;
   font-weight: 200;
+  text-align: center;
 }
 
 .gcse, .alevel, .competition{
